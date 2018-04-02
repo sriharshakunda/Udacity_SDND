@@ -1,9 +1,4 @@
 # **Finding Lane Lines on the Road** 
-
-## Writeup Template
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
-
 ---
 
 **Finding Lane Lines on the Road**
@@ -12,9 +7,6 @@ The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
 * Reflect on your work in a written report
 
-# 1. Making a Pipeline that finds lane lines on the road
-
-# 2. Description
 
 [//]: # (Image References)
 
@@ -27,7 +19,7 @@ The goals / steps of this project are the following:
 
 ---
 
-### Reflection
+# Reflection
 
 ## 1. Describe the pipeline
 ###    My pipeline was divided into two forms. One for videos and one for Images.
