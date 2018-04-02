@@ -29,41 +29,16 @@ The goals / steps of this project are the following:
 
 ### Reflection
 
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
-
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
-
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-![alt text][image1]
-
-
-### 2. Identify potential shortcomings with your current pipeline
-
-
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
-
-
-### 3. Suggest possible improvements to your pipeline
-
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
-
-
 ## 1. Describe the pipeline
-##    My pipeline is 
-![alt text][image1]
-![alt text][image2]
-![alt text][image3]
-![alt text][image4]
-![alt text][image5]
-![alt text][image6]
+###    My pipeline was divided into two forms. One for videos and one for Images.
+###    For Images, I first converted the image into grayscale using the "grayscale" fucntion. Using Grayscale output, the image was passed into Gaussian Blur and Canny Edge functions.
+###    Using Region of Interest Function, by defining the vertices on Canny Edge output image, the image was cropped. This was passed into hough transform function.
+###	  Once the lines are detected, the data is passed through draw_lines function inorder to extrapolate the lane lines. For extrapolation I calculated the slope and used the slope and intercept values to find the next possible point at any givin point.
+###    Similar Pipeline was used for Videos. However, a HSV filter was added to the video processing and the grayscale output is subdued to make it compatible with the challenge video.
 
-2. Identify any shortcomings
+## 2. Identify any shortcomings
+###    One of the shortcoming of my code is not robust enough to detect the lines if they are faded or slightly visible. I had to modify the draw_lines function quite a bit to get the extrapolation of lane lines.
+###    The other shorcoming is that I have to modify the vertices for ROI function to adapt for challenge video as the lane lines are not in the center of the video frame.
 
-3. Suggest possible improvements
+## 3. Suggest possible improvements
+### For now there are no improvements. If I find any I will add them here.
