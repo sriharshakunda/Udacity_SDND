@@ -18,7 +18,12 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+[image1]: ./results/solidWhiteCurve.jpg "solidWhiteCurve"
+[image2]: ./results/solidWhiteRight.jpg "solidWhiteRight"
+[image3]: ./results/solidYellowCurve.jpg "solidYellowCurve"
+[image4]: ./results/solidYellowCurve2.jpg "solidYellowCurve2"
+[image5]: ./results/solidYellowLeft.jpg "solidYellowLeft"
+[image6]: ./results/whiteCarLaneSwitch.jpg "whiteCarLaneSwitch"
 
 ---
 
@@ -48,3 +53,17 @@ Another shortcoming could be ...
 A possible improvement would be to ...
 
 Another potential improvement could be to ...
+
+
+## 1. Describe the pipeline
+##    My pipeline is 
+![alt text][image1]
+![alt text][image2]
+![alt text][image3]
+![alt text][image4]
+![alt text][image5]
+![alt text][image6]
+
+2. Identify any shortcomings
+
+3. Suggest possible improvements
